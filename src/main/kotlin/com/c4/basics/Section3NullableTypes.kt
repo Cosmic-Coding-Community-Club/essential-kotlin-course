@@ -8,28 +8,28 @@ object Section3NullableTypes {
     const val USE_THIS_VALUE_TO_DEFAULT_PHRASE: String = "This is a default phrase"
     const val USE_THIS_VALUE_TO_DEFAULT_LENGTH: Int = 0
 
-    // Return the best phrase.
+    // Return the best phrase or default phrase.
     // Use elvis operator [?:] to check nullability
     fun task1(): Any {
         val phrase = randomPhrase()
 
-        return phrase ?: USE_THIS_VALUE_TO_DEFAULT_PHRASE
+        return Any()
     }
     
-    // Return the best phrase length.
+    // Return the best phrase length or default phrase length
     // Use operator "safe calls" [?.] and elvis operator [?:] to check nullability
     fun task2(): Any {
         val phrase = randomPhrase()
 
-        return phrase?.length ?: USE_THIS_VALUE_TO_DEFAULT_LENGTH
+        return Any()
     }
 
-    // Return the best phrase in lowercase.
+    // Return the best phrase in lowercase or default phrase in lowercase
     // Use operator "safe calls" [?.] and elvis operator [?:] to check nullability
     fun task3(): Any {
         val phrase = randomPhrase()
 
-        return phrase?.lowercase() ?: USE_THIS_VALUE_TO_DEFAULT_PHRASE.lowercase()
+        return Any()
     }
 
     private fun randomPhrase(): String? {
