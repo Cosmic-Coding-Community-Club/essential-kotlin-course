@@ -31,10 +31,10 @@ object Section2TypesParseAndCasts {
     
     // Return double variable and check type with smart and SAFE cast
     fun task5(): Any {
-        val myYear: Any = 586
+        val myWeight: Any = 74.5
         
-        return if (myYear is Int) {
-            myYear.toDouble()
+        return if (myWeight is Double) {
+            myWeight.toDouble()
         } else {
             throw RuntimeException("Wrong type")
         }
