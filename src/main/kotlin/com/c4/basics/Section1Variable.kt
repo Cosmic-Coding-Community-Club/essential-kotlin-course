@@ -1,8 +1,7 @@
 package com.c4.basics
 
 object Section1Variable {
-
-
+    
     // Return integer numeric variable
     fun task1(): Any {
         return 1982
