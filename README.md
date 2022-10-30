@@ -5,7 +5,7 @@
 
 <br />
 <div align="center">
-![ScreenShot](images/kotlin-logo.png)
+![ScreenShot](etc/images/kotlin-logo.png)
   
 <h1 align="center">Basic Kotlin Workshop</h1>
   <p align="center">
