@@ -27,7 +27,7 @@ object Section2TypesParseAndCasts {
     
     // Return double variable and check type with smart and SAFE cast
     fun task5(): Any {
-        val myWeight: Any = 75.89
+        val myWeight: Any = 74.5
         
         return Any()
     }
