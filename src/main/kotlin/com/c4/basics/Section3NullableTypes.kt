@@ -3,11 +3,10 @@ package com.c4.basics
 import java.util.Random
 
 object Section3NullableTypes {
-
+    
     const val THE_BEST_PHRASE: String = "Coding and keep calm."
     const val USE_THIS_VALUE_TO_DEFAULT_PHRASE: String = "This is a default phrase"
     const val USE_THIS_VALUE_TO_DEFAULT_LENGTH: Int = 0
-
 
     // Return the best phrase.
     // Use elvis operator [?:] to check nullability
@@ -16,8 +15,7 @@ object Section3NullableTypes {
 
         return phrase ?: USE_THIS_VALUE_TO_DEFAULT_PHRASE
     }
-
-
+    
     // Return the best phrase length.
     // Use operator "safe calls" [?.] and elvis operator [?:] to check nullability
     fun task2(): Any {
