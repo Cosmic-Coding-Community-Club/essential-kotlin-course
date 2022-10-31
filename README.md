@@ -4,9 +4,8 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://kotlinlang.org/docs/images/kotlin-logo.png" alt="Logo" width="80" height="80">
-  </a>
+
+![Logo](etc/images/kotlin.png)
 
 <h1 align="center">Basic Kotlin Workshop</h1>
   <p align="center">
