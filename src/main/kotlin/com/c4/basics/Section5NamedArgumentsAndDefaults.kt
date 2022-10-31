@@ -9,18 +9,20 @@ object Section5NamedArgumentsAndDefaults {
     var argumentCapture: Array<Any> = arrayOf(-1, -1)
     
     // Define function that has an integer param with given default value and returns any value
-    fun task1() {
-        argumentCapture[0] = -1
+    // Assign argument value to argumentCapture[0]
+    fun task1(aInt: Int = GIVEN_A_INT) {
+        argumentCapture[0] = aInt
     }
     
     // Define function that has a String and a float param with given default values and returns any value
-    fun task2() {
-        argumentCapture[0] = -1
-        argumentCapture[1] = -1
+    // Assign argument values to argumentCapture[0] and argumentCapture[1]
+    fun task2(aString: String = GIVEN_A_STRING, afloat: Float = GIVEN_A_FLOAT) {
+        argumentCapture[0] = aString
+        argumentCapture[1] = afloat
     }
     
     // Call function "functionToCall" passing arguments in different order
-    // and assign returned bool value to argumentCapture
+    // Assign returned function value to argumentCapture[0]
     fun task3() {
         argumentCapture[0] = -1
     }
