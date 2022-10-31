@@ -43,6 +43,12 @@
 ## About The Project
 Workshop for beginners and students that reviews the basic concepts and syntax of the Kotlin language.
 
+#### Program - What you will learn in this workshop?
+* Variables
+* Data types, parse and casts
+* Nullability
+* Functions
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
