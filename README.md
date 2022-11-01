@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-![Language](https://img.shields.io/badge/Language-kotlin-blue) ![License](https://img.shields.io/badge/License-Apache%202%2E0-green) ![Author](https://img.shields.io/badge/Author-Jordi%20J%2EGuil-green)
+![Language](https://img.shields.io/badge/Language-kotlin-blue) ![License](https://img.shields.io/badge/License-Apache%202%2E0-green) ![Author](https://img.shields.io/badge/Author-Jordi%20Jiménez%20Guil-green)
 
 
 <br />
@@ -104,7 +104,7 @@ Distributed under the APACHE License. See `LICENSE-2.0.txt` for more information
 
 
 ## Contact
-Jordi J. Guil - cosmic.coding.community.club@gmail.com
+Jordi Jiménez Guil - cosmic.coding.community.club@gmail.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
