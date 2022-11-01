@@ -66,11 +66,6 @@ object Section7Loops {
     //      Red-Car
     //      Red-Bicycle ...
     fun task9() {
-        for (color in colors) {
-            for (vehicle in vehicles) {
-                println("$color-$vehicle")
-            }
-        }
     }
     
     // Define the behavior of method using "while" loop:
@@ -78,11 +73,6 @@ object Section7Loops {
     //      Pet: Buddy
     //      Pet: Max ...
     fun task10() {
-        var index = 0
-        while (index < pets.size) {
-            println("Pet: ${pets[index]}")
-            index++
-        }
     }
     
     // Define the behavior of method using "do..while" loop:
@@ -90,10 +80,5 @@ object Section7Loops {
     //      Pet: Buddy
     //      Pet: Max ...
     fun task11() {
-        var index = 0
-        do {
-            println("Pet: ${pets[index]}")
-            index++
-        } while (index < pets.size)
     }
 }
