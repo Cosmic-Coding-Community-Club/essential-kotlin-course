@@ -1,5 +1,6 @@
 package com.c4.basics
 
+import com.c4.basics.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
@@ -7,59 +8,44 @@ class Section4FunctionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask1() {
-        assertThat(Section4Functions::class.java.methods[0].returnType)
-            .isEqualTo(String::class.java)
-        assertThat(Section4Functions::class.java.methods[0].parameterCount)
-            .isEqualTo(1)
-        assertThat(Section4Functions::class.java.methods[0].parameters[0].type)
-            .isEqualTo(Int::class.java)
-        
+        val functionToCheck = getFunction(Section4Functions::class, "task1")
+        assertThat(functionToCheck.returnType.classifier).isEqualTo(String::class)
+        assertThat(functionToCheck.parameters.size).isEqualTo(2)
+        assertThat(functionToCheck.parameters[1].type.classifier).isEqualTo(Int::class)
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask2() {
-        assertThat(Section4Functions::class.java.methods[1].returnType)
-            .isEqualTo(Void.TYPE)
-        assertThat(Section4Functions::class.java.methods[1].parameterCount)
-            .isEqualTo(1)
-        assertThat(Section4Functions::class.java.methods[1].parameters[0].type)
-            .isEqualTo(String::class.java)
-        
+        val functionToCheck = getFunction(Section4Functions::class, "task2")
+        assertThat(functionToCheck.returnType.classifier).isEqualTo(Unit::class)
+        assertThat(functionToCheck.parameters.size).isEqualTo(2)
+        assertThat(functionToCheck.parameters[1].type.classifier).isEqualTo(String::class)
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask3() {
-        assertThat(Section4Functions::class.java.methods[2].returnType)
-            .isEqualTo(Void.TYPE)
-        assertThat(Section4Functions::class.java.methods[2].parameterCount)
-            .isEqualTo(2)
-        assertThat(Section4Functions::class.java.methods[2].parameters[0].type)
-            .isEqualTo(Short::class.java)
-        assertThat(Section4Functions::class.java.methods[2].parameters[1].type)
-            .isEqualTo(Short::class.java)
+        val functionToCheck = getFunction(Section4Functions::class, "task3")
+        assertThat(functionToCheck.returnType.classifier).isEqualTo(Unit::class)
+        assertThat(functionToCheck.parameters.size).isEqualTo(3)
+        assertThat(functionToCheck.parameters[1].type.classifier).isEqualTo(Short::class)
+        assertThat(functionToCheck.parameters[2].type.classifier).isEqualTo(Short::class)
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask4() {
-        assertThat(Section4Functions::class.java.methods[3].returnType)
-            .isEqualTo(Long::class.java)
-        assertThat(Section4Functions::class.java.methods[3].parameterCount)
-            .isEqualTo(3)
-        assertThat(Section4Functions::class.java.methods[3].parameters[0].type)
-            .isEqualTo(Double::class.java)
-        assertThat(Section4Functions::class.java.methods[3].parameters[1].type)
-            .isEqualTo(String::class.java)
-        assertThat(Section4Functions::class.java.methods[3].parameters[2].type)
-            .isEqualTo(Float::class.java)
+        val functionToCheck = getFunction(Section4Functions::class, "task4")
+        assertThat(functionToCheck.returnType.classifier).isEqualTo(Long::class)
+        assertThat(functionToCheck.parameters.size).isEqualTo(4)
+        assertThat(functionToCheck.parameters[1].type.classifier).isEqualTo(Double::class)
+        assertThat(functionToCheck.parameters[2].type.classifier).isEqualTo(String::class)
+        assertThat(functionToCheck.parameters[3].type.classifier).isEqualTo(Float::class)
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask5() {
-        assertThat(Section4Functions::class.java.methods[4].returnType)
-            .isEqualTo(Int::class.java)
-        assertThat(Section4Functions::class.java.methods[4].parameterCount)
-            .isEqualTo(1)
-        assertThat(Section4Functions::class.java.methods[4].parameters[0].type)
-            .isEqualTo(ByteArray::class.java)
+        val functionToCheck = getFunction(Section4Functions::class, "task5")
+        assertThat(functionToCheck.returnType.classifier).isEqualTo(Int::class)
+        assertThat(functionToCheck.parameters.size).isEqualTo(2)
+        assertThat(functionToCheck.parameters[1].type.classifier).isEqualTo(ByteArray::class)
     }
 }

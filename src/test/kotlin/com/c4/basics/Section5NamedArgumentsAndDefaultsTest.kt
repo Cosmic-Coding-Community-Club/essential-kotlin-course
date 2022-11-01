@@ -1,5 +1,6 @@
 package com.c4.basics
 
+import com.c4.basics.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
@@ -10,12 +11,10 @@ class Section5NamedArgumentsAndDefaultsTest {
         Section5NamedArgumentsAndDefaults.task1()
         
         assertThat(Section5NamedArgumentsAndDefaults.argumentCapture[0] as Int).isEqualTo(1982)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[0].returnType)
-            .isEqualTo(Void.TYPE)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[0].parameterCount)
-            .isEqualTo(1)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[0].parameters[0].type)
-            .isEqualTo(Int::class.java)
+        val functionToCheck = getFunction(Section5NamedArgumentsAndDefaults::class, "task1")
+        assertThat(functionToCheck.returnType.classifier).isEqualTo(Unit::class)
+        assertThat(functionToCheck.parameters.size).isEqualTo(2)
+        assertThat(functionToCheck.parameters[1].type.classifier).isEqualTo(Int::class)
     }
     
     @Test
@@ -24,14 +23,11 @@ class Section5NamedArgumentsAndDefaultsTest {
         
         assertThat(Section5NamedArgumentsAndDefaults.argumentCapture[0] as String).isEqualTo("the best year.")
         assertThat(Section5NamedArgumentsAndDefaults.argumentCapture[1] as Float).isEqualTo(3.1416f)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[1].returnType)
-            .isEqualTo(Void.TYPE)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[1].parameterCount)
-            .isEqualTo(2)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[1].parameters[0].type)
-            .isEqualTo(String()::class.java)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[1].parameters[1].type)
-            .isEqualTo(Float::class.java)
+        val functionToCheck = getFunction(Section5NamedArgumentsAndDefaults::class, "task2")
+        assertThat(functionToCheck.returnType.classifier).isEqualTo(Unit::class)
+        assertThat(functionToCheck.parameters.size).isEqualTo(3)
+        assertThat(functionToCheck.parameters[1].type.classifier).isEqualTo(String::class)
+        assertThat(functionToCheck.parameters[2].type.classifier).isEqualTo(Float::class)
     }
     
     @Test
@@ -39,10 +35,8 @@ class Section5NamedArgumentsAndDefaultsTest {
         Section5NamedArgumentsAndDefaults.task3()
         
         assertThat(Section5NamedArgumentsAndDefaults.argumentCapture[0] as Boolean).isEqualTo(true)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[2].returnType)
-            .isEqualTo(Void.TYPE)
-        assertThat(Section5NamedArgumentsAndDefaults::class.java.methods[2].parameterCount)
-            .isEqualTo(0)
-       
+        val functionToCheck = getFunction(Section5NamedArgumentsAndDefaults::class, "task3")
+        assertThat(functionToCheck.returnType.classifier).isEqualTo(Unit::class)
+        assertThat(functionToCheck.parameters.size).isEqualTo(1)
     }
 }
