@@ -1,6 +1,6 @@
 package com.c4.basics
 
-import com.c4.basics.TestUtils.getFunction
+import com.c4.tooling.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
