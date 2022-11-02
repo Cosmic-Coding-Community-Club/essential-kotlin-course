@@ -61,24 +61,61 @@ object Section7Loops {
     fun task8() {
     }
     
+    // Define the behavior of method using "for" loop, "break" and a range of 1 to 9:
+    // print in console the literal: 12345
+    fun task9() {
+        loop@ for (num in 1..9) {
+            if (num > 5) {
+                break@loop
+            }
+            print(num)
+        }
+    }
+    
+    // Define the behavior of method using "for" loop, "return" and a range of 1 to 9:
+    // print in console the literal: 12345
+    fun task10() {
+        loop@ for (num in 1..9) {
+            if (num > 5) {
+                return
+            }
+            print(num)
+        }
+    }
+    
     // Define the behavior of method using "for" loops:
     // print in console all combination of colors and vehicles (respecting order of lists) with the next style
     //      Red-Car
     //      Red-Bicycle ...
-    fun task9() {
+    fun task11() {
+        for (color in colors) {
+            for (vehicle in vehicles) {
+                println("$color-$vehicle")
+            }
+        }
     }
     
     // Define the behavior of method using "while" loop:
     // print in console the pet list with the next style
     //      Pet: Buddy
     //      Pet: Max ...
-    fun task10() {
+    fun task12() {
+        var index = 0
+        while (index < pets.size) {
+            println("Pet: ${pets[index]}")
+            index++
+        }
     }
     
     // Define the behavior of method using "do..while" loop:
     // print in console the pet list with the next style
     //      Pet: Buddy
     //      Pet: Max ...
-    fun task11() {
+    fun task13() {
+        var index = 0
+        do {
+            println("Pet: ${pets[index]}")
+            index++
+        } while (index < pets.size)
     }
 }
