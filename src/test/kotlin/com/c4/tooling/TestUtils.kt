@@ -1,4 +1,4 @@
-package com.c4.basics
+package com.c4.tooling
 
 import kotlin.reflect.KClass
 import kotlin.reflect.full.functions
