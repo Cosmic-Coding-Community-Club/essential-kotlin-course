@@ -77,6 +77,18 @@ class Section7LoopsTest {
     @Test
     fun shouldReturnGreenWhenCheckTask9() {
         Section7Loops.task9()
+        assertThat(outContent.toString()).isEqualTo("12345")
+    }
+    
+    @Test
+    fun shouldReturnGreenWhenCheckTask10() {
+        Section7Loops.task10()
+        assertThat(outContent.toString()).isEqualTo("12345")
+    }
+    
+    @Test
+    fun shouldReturnGreenWhenCheckTask11() {
+        Section7Loops.task11()
         assertThat(outContent.toString())
             .isEqualTo(
                 "Red-Car\nRed-Bicycle\nRed-Bus\nRed-Truck\nRed-Motorcycle\nRed-Van\n" +
@@ -86,15 +98,15 @@ class Section7LoopsTest {
     }
     
     @Test
-    fun shouldReturnGreenWhenCheckTask10() {
-        Section7Loops.task10()
+    fun shouldReturnGreenWhenCheckTask12() {
+        Section7Loops.task12()
         assertThat(outContent.toString())
             .isEqualTo("Pet: Buddy\nPet: Max\nPet: Rosie\nPet: Poppy\nPet: Milo\n")
     }
     
     @Test
-    fun shouldReturnGreenWhenCheckTask11() {
-        Section7Loops.task11()
+    fun shouldReturnGreenWhenCheckTask13() {
+        Section7Loops.task13()
         assertThat(outContent.toString())
             .isEqualTo("Pet: Buddy\nPet: Max\nPet: Rosie\nPet: Poppy\nPet: Milo\n")
     }
