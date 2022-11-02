@@ -64,23 +64,11 @@ object Section7Loops {
     // Define the behavior of method using "for" loop, "break" and a range of 1 to 9:
     // print in console the literal: 12345
     fun task9() {
-        loop@ for (num in 1..9) {
-            if (num > 5) {
-                break@loop
-            }
-            print(num)
-        }
     }
     
     // Define the behavior of method using "for" loop, "return" and a range of 1 to 9:
     // print in console the literal: 12345
     fun task10() {
-        loop@ for (num in 1..9) {
-            if (num > 5) {
-                return
-            }
-            print(num)
-        }
     }
     
     // Define the behavior of method using "for" loops:
@@ -88,11 +76,6 @@ object Section7Loops {
     //      Red-Car
     //      Red-Bicycle ...
     fun task11() {
-        for (color in colors) {
-            for (vehicle in vehicles) {
-                println("$color-$vehicle")
-            }
-        }
     }
     
     // Define the behavior of method using "while" loop:
@@ -100,11 +83,6 @@ object Section7Loops {
     //      Pet: Buddy
     //      Pet: Max ...
     fun task12() {
-        var index = 0
-        while (index < pets.size) {
-            println("Pet: ${pets[index]}")
-            index++
-        }
     }
     
     // Define the behavior of method using "do..while" loop:
@@ -112,10 +90,5 @@ object Section7Loops {
     //      Pet: Buddy
     //      Pet: Max ...
     fun task13() {
-        var index = 0
-        do {
-            println("Pet: ${pets[index]}")
-            index++
-        } while (index < pets.size)
     }
 }
