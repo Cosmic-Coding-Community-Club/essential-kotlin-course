@@ -3,17 +3,17 @@ package com.c4.basics
 object Section05Lambdas {
     
     // Return a lambda function with empty parameters and returns an Int
-    fun task1(): () -> Int = { 1895 }
+    fun task1(): Any = { Any() }
     
     // Return a lambda function with String and Float parameters and returns an Double
-    fun task2(): (String, Float) -> Double = { aString, aFloat -> 12.1211 }
+    fun task2(): Any = { Any() }
     
     // Return a lambda function with Long parameter and not returns any data
-    fun task3(): (Long) -> Unit = { along -> println("$along is a long.") }
+    fun task3(): Any = { Any() }
     
     // Return a lambda function with Long and two Int parameters and returns a Boolean
-    fun task4(): (Long, Int, Int) -> Boolean = { along, anInt1, anInt2 -> true }
+    fun task4(): Any = { Any() }
     
     // Return a lambda function with empty parameters and not returns any data
-    fun task5(): () -> Unit = { println("This is a lambda function.") }
+    fun task5(): Any = { Any() }
 }
