@@ -7,7 +7,7 @@
 <div align="center">
 
 ![Logo](etc/images/kotlin.png)
-  
+
 <h1 align="center">Basic Kotlin Workshop</h1>
   <p align="center">
     Basic but complete workshop of Kotlin.
@@ -41,10 +41,13 @@
 
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
 Workshop for beginners and students that reviews the basic concepts and syntax of the Kotlin language.
 
 #### Program - What you will learn in this workshop?
+
 * Variables
 * Data types, parse and casts
 * Nullability
@@ -55,12 +58,16 @@ Workshop for beginners and students that reviews the basic concepts and syntax o
 
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
+
 This workshop is a series of exercises to get you familiar with the Kotlin Syntax and your basic concepts.
 Each exercise is created as a failing unit test (red) and your job is to make it pass (green).
 
 #### How to build and run tests
+
 ##### Working with the project using Intellij IDEA:
+
 1. Import the project as Gradle project.
 2. To build the project and run the tests use `test` task on the Gradle tool window
    (`View | Tool Windows | Gradle`).
@@ -71,20 +78,23 @@ how to run Gradle task from the Gradle toolbar in IntelliJ IDEA.
 ##### Working with the commandline
 
 You can also build the project and run all tests in the terminal:
+
 ```
 ./gradlew test
 ```
 
-**NOTE: The solutions, that is, the exercises solved with the green unit tests, are in the branch named "tech/solutions"**
+**NOTE: The solutions, that is, the exercises solved with the green unit tests, are in the branch named "
+tech/solutions"**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also
+simply open an issue with the tag "enhancement".
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -96,23 +106,22 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## License
+
 Distributed under the APACHE License. See `LICENSE-2.0.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Contact
+
 Jordi Jiménez Guil - cosmic.coding.community.club@gmail.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## Learning resources 
+## Learning resources
 
 The following resources may be helpful in your learning:
 
 * [Official Kotlin docs](https://kotlinlang.org/docs/home.html)
 * [Official Kotlin Android Courses](https://developer.android.com/courses)
+* [Official Online Play Kotlin](https://play.kotlinlang.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
