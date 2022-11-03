@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section7Loops {
+object Section08Loops {
     
     private val pets: List<String> =
         listOf("Buddy", "Max", "Rosie", "Poppy", "Milo")

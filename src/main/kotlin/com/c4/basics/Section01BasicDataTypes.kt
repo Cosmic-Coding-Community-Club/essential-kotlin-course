@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section1Variable {
+object Section01BasicDataTypes {
     
     // Return integer numeric variable
     fun task1(): Any {

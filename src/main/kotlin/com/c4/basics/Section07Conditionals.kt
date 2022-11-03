@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section6Conditionals {
+object Section07Conditionals {
     
     const val FLAVOR_VANILLA = "Flavor Vanilla"
     const val FLAVOR_CHOCOLATE = "Flavor Chocolate"
