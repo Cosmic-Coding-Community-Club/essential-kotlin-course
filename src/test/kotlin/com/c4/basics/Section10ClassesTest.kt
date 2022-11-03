@@ -4,17 +4,17 @@ import com.c4.tooling.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
-class Section9ClassesTest {
+class Section10ClassesTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask1() {
-        assertThat(Section9Classes.task1())
+        assertThat(Section10Classes.task1())
             .isInstanceOf(Class.forName("com.c4.basics.creations.Cat"))
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask2() {
-        val instanceToCheck = Section9Classes.task2()
+        val instanceToCheck = Section10Classes.task2()
         assertThat(instanceToCheck)
             .isInstanceOf(Class.forName("com.c4.basics.creations.Dog"))
         assertThat(instanceToCheck.javaClass.kotlin.constructors)
@@ -29,7 +29,7 @@ class Section9ClassesTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask3() {
-        val instanceToCheck = Section9Classes.task3()
+        val instanceToCheck = Section10Classes.task3()
         assertThat(instanceToCheck)
             .isInstanceOf(Class.forName("com.c4.basics.creations.Cat"))
         assertThat(Class.forName("com.c4.basics.creations.Feline").kotlin.isInstance(instanceToCheck))
@@ -38,7 +38,7 @@ class Section9ClassesTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask4() {
-        val instanceToCheck = Section9Classes.task4()
+        val instanceToCheck = Section10Classes.task4()
         assertThat(instanceToCheck)
             .isInstanceOf(Class.forName("com.c4.basics.creations.Dog"))
         assertThat(Class.forName("com.c4.basics.creations.Canine").kotlin.isInstance(instanceToCheck))
@@ -49,7 +49,7 @@ class Section9ClassesTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask5() {
-        val instanceToCheck = Section9Classes.task5()
+        val instanceToCheck = Section10Classes.task5()
         assertThat(instanceToCheck)
             .isInstanceOf(Class.forName("com.c4.basics.creations.Cat"))
         assertThat(Class.forName("com.c4.basics.creations.Feline").kotlin.isInstance(instanceToCheck))
@@ -60,7 +60,7 @@ class Section9ClassesTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask6() {
-        val instanceToCheck = Section9Classes.task6()
+        val instanceToCheck = Section10Classes.task6()
         assertThat(instanceToCheck)
             .isInstanceOf(Class.forName("com.c4.basics.creations.Owner"))
         assertThat(instanceToCheck::class.isData)
@@ -79,7 +79,7 @@ class Section9ClassesTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask7() {
-        val instanceToCheck = Section9Classes.task7()
+        val instanceToCheck = Section10Classes.task7()
         assertThat(instanceToCheck)
             .isInstanceOf(Class.forName("com.c4.basics.creations.Owner"))
         assertThat(instanceToCheck::class.isData)

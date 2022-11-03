@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section2TypesParseAndCasts {
+object Section02TypesParsingAndCasting {
     
     // Return integer numeric variable from string
     fun task1(): Any {

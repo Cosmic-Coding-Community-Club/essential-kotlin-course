@@ -4,7 +4,7 @@ import com.c4.basics.creations.Cat
 import com.c4.basics.creations.Dog
 import com.c4.basics.creations.Owner
 
-object Section9Classes {
+object Section10Classes {
     
     // Create inside "creations" package a new class named "Cat".
     // Return on this function an instance of this class.

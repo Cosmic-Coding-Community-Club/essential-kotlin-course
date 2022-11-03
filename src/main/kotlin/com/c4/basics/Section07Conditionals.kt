@@ -1,10 +1,10 @@
 package com.c4.basics
 
-import com.c4.basics.Section6Conditionals.PASTRY.CROISSANT
-import com.c4.basics.Section6Conditionals.PASTRY.DONUT
-import com.c4.basics.Section6Conditionals.PASTRY.MUFFIN
+import com.c4.basics.Section07Conditionals.PASTRY.CROISSANT
+import com.c4.basics.Section07Conditionals.PASTRY.DONUT
+import com.c4.basics.Section07Conditionals.PASTRY.MUFFIN
 
-object Section6Conditionals {
+object Section07Conditionals {
     
     const val FLAVOR_VANILLA = "Flavor Vanilla"
     const val FLAVOR_CHOCOLATE = "Flavor Chocolate"

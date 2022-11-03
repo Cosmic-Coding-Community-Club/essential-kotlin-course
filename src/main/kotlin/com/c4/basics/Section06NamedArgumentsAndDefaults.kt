@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section5NamedArgumentsAndDefaults {
+object Section06NamedArgumentsAndDefaults {
     const val GIVEN_A_INT: Int = 1982
     const val GIVEN_A_STRING: String = "The best year"
     const val GIVEN_A_FLOAT: Float = 3.1416f
