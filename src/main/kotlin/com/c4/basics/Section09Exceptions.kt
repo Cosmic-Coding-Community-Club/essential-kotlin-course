@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section8Exceptions {
+object Section09Exceptions {
     
     const val MESSAGE_USER_NOT_FOUND = "User not found"
     const val DEFAULT_STRING = "This is a default String"

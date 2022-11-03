@@ -2,7 +2,7 @@ package com.c4.basics
 
 import java.util.Random
 
-object Section3NullableTypes {
+object Section03NullableTypes {
     
     const val THE_BEST_PHRASE: String = "Coding and keep calm."
     const val USE_THIS_VALUE_TO_DEFAULT_PHRASE: String = "This is a default phrase"

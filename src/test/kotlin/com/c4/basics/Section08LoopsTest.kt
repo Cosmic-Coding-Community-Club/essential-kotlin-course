@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
 
-class Section7LoopsTest {
+class Section08LoopsTest {
     
     private val outContent: ByteArrayOutputStream = ByteArrayOutputStream()
     private val originalOut = System.out
@@ -24,25 +24,25 @@ class Section7LoopsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask1() {
-        Section7Loops.task1()
+        Section08Loops.task1()
         assertThat(outContent.toString()).isEqualTo("Pet: Buddy\nPet: Max\nPet: Rosie\nPet: Poppy\nPet: Milo\n")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask2() {
-        Section7Loops.task2()
+        Section08Loops.task2()
         assertThat(outContent.toString()).isEqualTo("1- Buddy\n2- Max\n3- Rosie\n4- Poppy\n5- Milo\n")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask3() {
-        Section7Loops.task3()
+        Section08Loops.task3()
         assertThat(outContent.toString()).isEqualTo("1- Buddy\n2- Max\n3- Rosie\n4- Poppy\n5- Milo\n")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask4() {
-        Section7Loops.task4()
+        Section08Loops.task4()
         assertThat(outContent.toString())
             .isEqualTo(
                 "Id[10001] -> name[John]\nId[10002] -> name[Daniel]\n" +
@@ -52,43 +52,43 @@ class Section7LoopsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask5() {
-        Section7Loops.task5()
+        Section08Loops.task5()
         assertThat(outContent.toString()).isEqualTo("123456789")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask6() {
-        Section7Loops.task6()
+        Section08Loops.task6()
         assertThat(outContent.toString()).isEqualTo("12345678")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask7() {
-        Section7Loops.task7()
+        Section08Loops.task7()
         assertThat(outContent.toString()).isEqualTo("13579")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask8() {
-        Section7Loops.task8()
+        Section08Loops.task8()
         assertThat(outContent.toString()).isEqualTo("963")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask9() {
-        Section7Loops.task9()
+        Section08Loops.task9()
         assertThat(outContent.toString()).isEqualTo("12345")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask10() {
-        Section7Loops.task10()
+        Section08Loops.task10()
         assertThat(outContent.toString()).isEqualTo("12345")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask11() {
-        Section7Loops.task11()
+        Section08Loops.task11()
         assertThat(outContent.toString())
             .isEqualTo(
                 "Red-Car\nRed-Bicycle\nRed-Bus\nRed-Truck\nRed-Motorcycle\nRed-Van\n" +
@@ -99,14 +99,14 @@ class Section7LoopsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask12() {
-        Section7Loops.task12()
+        Section08Loops.task12()
         assertThat(outContent.toString())
             .isEqualTo("Pet: Buddy\nPet: Max\nPet: Rosie\nPet: Poppy\nPet: Milo\n")
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask13() {
-        Section7Loops.task13()
+        Section08Loops.task13()
         assertThat(outContent.toString())
             .isEqualTo("Pet: Buddy\nPet: Max\nPet: Rosie\nPet: Poppy\nPet: Milo\n")
     }
