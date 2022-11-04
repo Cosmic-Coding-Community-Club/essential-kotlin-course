@@ -52,6 +52,12 @@ Workshop for beginners and students that reviews the basic concepts and syntax o
 * Data types, parse and casts
 * Nullability
 * Functions
+* Lambdas
+* Named arguments and Defaults
+* Conditionals
+* Loops
+* Exceptions
+* Classes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
