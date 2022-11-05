@@ -3,7 +3,6 @@ package com.c4.basics
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import java.util.AbstractMap.SimpleEntry
-import kotlin.reflect.full.allSupertypes
 
 class Section04CollectionsTest {
     
@@ -36,7 +35,7 @@ class Section04CollectionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask4() {
-        assertThat(Section04Collections.task4() as Map<Int,String>)
+        assertThat(Section04Collections.task4() as Map<Int, String>)
             .isNotNull
             .hasSize(4)
             .contains(
@@ -50,8 +49,8 @@ class Section04CollectionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask5() {
-        assertThat(Section04Collections.task4() is MutableMap).isTrue
-        assertThat(Section04Collections.task5() as Map<Int,String>)
+        assertThat(Section04Collections.task4() is MutableMap<*,*>).isTrue
+        assertThat(Section04Collections.task5() as Map<Int, String>)
             .isNotNull
             .hasSize(4)
             .contains(
