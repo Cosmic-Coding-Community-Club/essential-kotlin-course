@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section05Lambdas {
+object Section07Lambdas {
     
     // Return a lambda function with empty parameters and returns an Int
     fun task1(): () -> Int = { 1895 }
