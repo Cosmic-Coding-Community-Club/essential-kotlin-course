@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section10Classes {
+object Section11Classes {
     
     // Create inside "creations" package a new class named "Cat".
     // Return on this function an instance of this class.

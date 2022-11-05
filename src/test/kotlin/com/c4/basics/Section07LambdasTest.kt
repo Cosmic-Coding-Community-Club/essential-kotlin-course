@@ -4,11 +4,11 @@ import com.c4.tooling.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
-class Section05LambdasTest {
+class Section07LambdasTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask1() {
-        val functionToCheck = getFunction(Section05Lambdas::class, "task1")
+        val functionToCheck = getFunction(Section07Lambdas::class, "task1")
         
         assertThat(functionToCheck.returnType.classifier).isEqualTo(Function0::class)
         assertThat(functionToCheck.returnType.arguments).hasSize(1)
@@ -17,7 +17,7 @@ class Section05LambdasTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask2() {
-        val functionToCheck = getFunction(Section05Lambdas::class, "task2")
+        val functionToCheck = getFunction(Section07Lambdas::class, "task2")
         
         assertThat(functionToCheck.returnType.classifier).isEqualTo(Function2::class)
         assertThat(functionToCheck.returnType.arguments).hasSize(3)
@@ -28,7 +28,7 @@ class Section05LambdasTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask3() {
-        val functionToCheck = getFunction(Section05Lambdas::class, "task3")
+        val functionToCheck = getFunction(Section07Lambdas::class, "task3")
         
         assertThat(functionToCheck.returnType.classifier).isEqualTo(Function1::class)
         assertThat(functionToCheck.returnType.arguments).hasSize(2)
@@ -38,7 +38,7 @@ class Section05LambdasTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask4() {
-        val functionToCheck = getFunction(Section05Lambdas::class, "task4")
+        val functionToCheck = getFunction(Section07Lambdas::class, "task4")
         
         assertThat(functionToCheck.returnType.classifier).isEqualTo(Function3::class)
         assertThat(functionToCheck.returnType.arguments).hasSize(4)
@@ -50,7 +50,7 @@ class Section05LambdasTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask5() {
-        val functionToCheck = getFunction(Section05Lambdas::class, "task5")
+        val functionToCheck = getFunction(Section07Lambdas::class, "task5")
         
         assertThat(functionToCheck.returnType.classifier).isEqualTo(Function0::class)
         assertThat(functionToCheck.returnType.arguments).hasSize(1)
