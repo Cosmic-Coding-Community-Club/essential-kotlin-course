@@ -1,6 +1,14 @@
 package com.c4.basics
 
+<<<<<<< HEAD:src/main/kotlin/com/c4/basics/Section10Classes.kt
 object Section10Classes {
+=======
+import com.c4.basics.creations.Cat
+import com.c4.basics.creations.Dog
+import com.c4.basics.creations.Owner
+
+object Section11Classes {
+>>>>>>> 744b1a4 (add section 5 collections exercises and refactor order of rest sections):src/main/kotlin/com/c4/basics/Section11Classes.kt
     
     // Create inside "creations" package a new class named "Cat".
     // Return on this function an instance of this class.

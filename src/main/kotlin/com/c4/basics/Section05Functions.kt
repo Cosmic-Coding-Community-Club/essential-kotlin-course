@@ -1,6 +1,6 @@
 package com.c4.basics
 
-object Section04Functions {
+object Section05Functions {
     
     // Define this function that has an integer param and returns a string
     fun task1() {

@@ -1,6 +1,14 @@
 package com.c4.basics
 
+<<<<<<< HEAD:src/main/kotlin/com/c4/basics/Section07Conditionals.kt
 object Section07Conditionals {
+=======
+import com.c4.basics.Section08Conditionals.PASTRY.CROISSANT
+import com.c4.basics.Section08Conditionals.PASTRY.DONUT
+import com.c4.basics.Section08Conditionals.PASTRY.MUFFIN
+
+object Section08Conditionals {
+>>>>>>> 744b1a4 (add section 5 collections exercises and refactor order of rest sections):src/main/kotlin/com/c4/basics/Section08Conditionals.kt
     
     const val FLAVOR_VANILLA = "Flavor Vanilla"
     const val FLAVOR_CHOCOLATE = "Flavor Chocolate"
