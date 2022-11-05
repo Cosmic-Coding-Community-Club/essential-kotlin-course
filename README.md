@@ -48,15 +48,16 @@ Workshop for beginners and students that reviews the basic concepts and syntax o
 
 #### Program - What you will learn in this workshop?
 
-* Variables
-* Data types, parse and casts
-* Nullability
+* Basic data types
+* Types parsing and casting
+* Nullable types
+* Collections
 * Functions
-* Lambdas
 * Named arguments and Defaults
+* Lambdas
 * Conditionals
-* Loops
 * Exceptions
+* Loops
 * Classes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
