@@ -9,7 +9,7 @@ class Section04CollectionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask1() {
-        assertThat(Section04Collections.task1())
+        assertThat(Section04Collections.task1() as List<*>)
             .isNotNull
             .hasSize(4)
             .contains(45, 15, 74, 80)
@@ -18,7 +18,7 @@ class Section04CollectionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask2() {
-        assertThat(Section04Collections.task2())
+        assertThat(Section04Collections.task2() as List<*>)
             .isNotNull
             .hasSize(4)
             .contains("chair", "table", "lamp", "bed")
@@ -27,7 +27,7 @@ class Section04CollectionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask3() {
-        assertThat(Section04Collections.task3())
+        assertThat(Section04Collections.task3() as List<*>)
             .isNotNull
             .hasSize(4)
             .contains(45, 15, 74, 80)
@@ -36,7 +36,7 @@ class Section04CollectionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask4() {
-        assertThat(Section04Collections.task4())
+        assertThat(Section04Collections.task4() as Map<Int,String>)
             .isNotNull
             .hasSize(4)
             .contains(
@@ -51,7 +51,7 @@ class Section04CollectionsTest {
     @Test
     fun shouldReturnGreenWhenCheckTask5() {
         assertThat(Section04Collections.task4() is MutableMap).isTrue
-        assertThat(Section04Collections.task5())
+        assertThat(Section04Collections.task5() as Map<Int,String>)
             .isNotNull
             .hasSize(4)
             .contains(
@@ -65,7 +65,7 @@ class Section04CollectionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask6() {
-        assertThat(Section04Collections.task6())
+        assertThat(Section04Collections.task6() as Set<*>)
             .isNotNull
             .hasSize(4)
             .isInstanceOf(Set::class.java)
@@ -73,7 +73,7 @@ class Section04CollectionsTest {
     
     @Test
     fun shouldReturnGreenWhenCheckTask7() {
-        assertThat(Section04Collections.task7())
+        assertThat(Section04Collections.task7() as Set<*>)
             .isNotNull
             .hasSize(4)
             .isInstanceOf(Set::class.java)
