@@ -1,3 +1,3 @@
 
-rootProject.name = "kotlin-workshop"
+rootProject.name = "essential-kotlin-course"
 
