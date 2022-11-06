@@ -7,9 +7,9 @@
 
 ![Logo](etc/images/kotlin.png)
 
-<h1 align="center">Basic Kotlin Workshop</h1>
+<h1 align="center">Essential Kotlin Course</h1>
   <p align="center">
-    Basic but complete workshop of Kotlin.
+    Kotlin training course of the essential concepts.
     <br />
   </p>
 </div>
@@ -43,7 +43,7 @@
 
 ## About The Project
 
-Workshop for beginners and students that reviews the basic concepts and syntax of the Kotlin language.
+Course for beginners and students that reviews the essential concepts and syntax of the Kotlin language.
 
 #### Program - What you will learn in this workshop?
 
