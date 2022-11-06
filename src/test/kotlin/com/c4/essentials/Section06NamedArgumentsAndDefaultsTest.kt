@@ -1,8 +1,8 @@
-package com.c4.basics
+package com.c4.essentials
 
-import com.c4.basics.Section06NamedArgumentsAndDefaults.GIVEN_A_FLOAT
-import com.c4.basics.Section06NamedArgumentsAndDefaults.GIVEN_A_INT
-import com.c4.basics.Section06NamedArgumentsAndDefaults.GIVEN_A_STRING
+import com.c4.essentials.Section06NamedArgumentsAndDefaults.GIVEN_A_FLOAT
+import com.c4.essentials.Section06NamedArgumentsAndDefaults.GIVEN_A_INT
+import com.c4.essentials.Section06NamedArgumentsAndDefaults.GIVEN_A_STRING
 import com.c4.tooling.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test

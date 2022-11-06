@@ -1,6 +1,7 @@
-package com.c4.basics
+package com.c4.essentials
 
-import com.c4.basics.Section11Classes.Bird.Color.GREEN
+import com.c4.essentials.Section11Classes.Bird
+import com.c4.essentials.Section11Classes.Bird.Color.GREEN
 import com.c4.tooling.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
@@ -106,6 +107,6 @@ class Section11ClassesTest {
             .hasFieldOrPropertyWithValue("specie", "Parrot")
             .hasFieldOrPropertyWithValue("color", GREEN)
             .hasFieldOrPropertyWithValue("weight", 350.45f)
-            .isInstanceOf(Section11Classes.Bird::class.java)
+            .isInstanceOf(Bird::class.java)
     }
 }

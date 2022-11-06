@@ -1,4 +1,4 @@
-package com.c4.basics
+package com.c4.essentials
 
 object Section06NamedArgumentsAndDefaults {
     const val GIVEN_A_INT: Int = 1982
