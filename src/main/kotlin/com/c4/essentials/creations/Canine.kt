@@ -1,4 +1,4 @@
-package com.c4.basics.creations
+package com.c4.essentials.creations
 
 interface Canine {
     fun doWoof()

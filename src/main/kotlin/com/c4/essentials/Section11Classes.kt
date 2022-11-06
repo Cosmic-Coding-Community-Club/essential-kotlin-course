@@ -1,10 +1,10 @@
 package com.c4.essentials
 
-import com.c4.basics.Section11Classes.Bird.Color.GREEN
-import com.c4.basics.Section11Classes.Bird.Color.RED
-import com.c4.basics.creations.Cat
-import com.c4.basics.creations.Dog
-import com.c4.basics.creations.Owner
+import com.c4.essentials.Section11Classes.Bird.Color.GREEN
+import com.c4.essentials.Section11Classes.Bird.Color.RED
+import com.c4.essentials.creations.Cat
+import com.c4.essentials.creations.Dog
+import com.c4.essentials.creations.Owner
 
 object Section11Classes {
     

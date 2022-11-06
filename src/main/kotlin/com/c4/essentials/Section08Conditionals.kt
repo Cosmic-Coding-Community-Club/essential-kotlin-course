@@ -1,8 +1,8 @@
 package com.c4.essentials
 
-import com.c4.basics.Section08Conditionals.PASTRY.CROISSANT
-import com.c4.basics.Section08Conditionals.PASTRY.DONUT
-import com.c4.basics.Section08Conditionals.PASTRY.MUFFIN
+import com.c4.essentials.Section08Conditionals.PASTRY.CROISSANT
+import com.c4.essentials.Section08Conditionals.PASTRY.DONUT
+import com.c4.essentials.Section08Conditionals.PASTRY.MUFFIN
 
 object Section08Conditionals {
     

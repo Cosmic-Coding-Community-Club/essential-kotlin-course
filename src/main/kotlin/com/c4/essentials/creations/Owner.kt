@@ -1,4 +1,4 @@
-package com.c4.basics.creations
+package com.c4.essentials.creations
 
 data class Owner(
     val name: String,

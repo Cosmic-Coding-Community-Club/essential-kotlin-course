@@ -11,14 +11,14 @@ class Section11ClassesTest {
     @Test
     fun shouldReturnGreenWhenCheckTask1() {
         assertThat(Section11Classes.task1())
-            .isInstanceOf(Class.forName("com.c4.basics.creations.Cat"))
+            .isInstanceOf(Class.forName("com.c4.essentials.creations.Cat"))
     }
     
     @Test
     fun shouldReturnGreenWhenCheckTask2() {
         val instanceToCheck = Section11Classes.task2()
         assertThat(instanceToCheck)
-            .isInstanceOf(Class.forName("com.c4.basics.creations.Dog"))
+            .isInstanceOf(Class.forName("com.c4.essentials.creations.Dog"))
         assertThat(instanceToCheck.javaClass.kotlin.constructors)
             .hasSize(1)
         assertThat(instanceToCheck.javaClass.kotlin.constructors.elementAt(0).parameters)
@@ -33,8 +33,8 @@ class Section11ClassesTest {
     fun shouldReturnGreenWhenCheckTask3() {
         val instanceToCheck = Section11Classes.task3()
         assertThat(instanceToCheck)
-            .isInstanceOf(Class.forName("com.c4.basics.creations.Cat"))
-        assertThat(Class.forName("com.c4.basics.creations.Feline").kotlin.isInstance(instanceToCheck))
+            .isInstanceOf(Class.forName("com.c4.essentials.creations.Cat"))
+        assertThat(Class.forName("com.c4.essentials.creations.Feline").kotlin.isInstance(instanceToCheck))
             .isTrue
     }
     
@@ -42,10 +42,10 @@ class Section11ClassesTest {
     fun shouldReturnGreenWhenCheckTask4() {
         val instanceToCheck = Section11Classes.task4()
         assertThat(instanceToCheck)
-            .isInstanceOf(Class.forName("com.c4.basics.creations.Dog"))
-        assertThat(Class.forName("com.c4.basics.creations.Canine").kotlin.isInstance(instanceToCheck))
+            .isInstanceOf(Class.forName("com.c4.essentials.creations.Dog"))
+        assertThat(Class.forName("com.c4.essentials.creations.Canine").kotlin.isInstance(instanceToCheck))
             .isTrue
-        assertThat(getFunction(Class.forName("com.c4.basics.creations.Canine").kotlin, "doWoof"))
+        assertThat(getFunction(Class.forName("com.c4.essentials.creations.Canine").kotlin, "doWoof"))
             .isNotNull
     }
     
@@ -53,10 +53,10 @@ class Section11ClassesTest {
     fun shouldReturnGreenWhenCheckTask5() {
         val instanceToCheck = Section11Classes.task5()
         assertThat(instanceToCheck)
-            .isInstanceOf(Class.forName("com.c4.basics.creations.Cat"))
-        assertThat(Class.forName("com.c4.basics.creations.Feline").kotlin.isInstance(instanceToCheck))
+            .isInstanceOf(Class.forName("com.c4.essentials.creations.Cat"))
+        assertThat(Class.forName("com.c4.essentials.creations.Feline").kotlin.isInstance(instanceToCheck))
             .isTrue
-        assertThat(Class.forName("com.c4.basics.creations.Animal").kotlin.isInstance(instanceToCheck))
+        assertThat(Class.forName("com.c4.essentials.creations.Animal").kotlin.isInstance(instanceToCheck))
             .isTrue
     }
     
@@ -64,7 +64,7 @@ class Section11ClassesTest {
     fun shouldReturnGreenWhenCheckTask6() {
         val instanceToCheck = Section11Classes.task6()
         assertThat(instanceToCheck)
-            .isInstanceOf(Class.forName("com.c4.basics.creations.Owner"))
+            .isInstanceOf(Class.forName("com.c4.essentials.creations.Owner"))
         assertThat(instanceToCheck::class.isData)
             .isTrue
         assertThat(instanceToCheck.javaClass.kotlin.constructors)
@@ -83,10 +83,10 @@ class Section11ClassesTest {
     fun shouldReturnGreenWhenCheckTask7() {
         val instanceToCheck = Section11Classes.task7()
         assertThat(instanceToCheck)
-            .isInstanceOf(Class.forName("com.c4.basics.creations.Owner"))
+            .isInstanceOf(Class.forName("com.c4.essentials.creations.Owner"))
         assertThat(instanceToCheck::class.isData)
             .isTrue
-        assertThat(Class.forName("com.c4.basics.creations.Person").kotlin.isInstance(instanceToCheck))
+        assertThat(Class.forName("com.c4.essentials.creations.Person").kotlin.isInstance(instanceToCheck))
             .isTrue
         assertThat(instanceToCheck.javaClass.kotlin.constructors)
             .hasSize(1)
