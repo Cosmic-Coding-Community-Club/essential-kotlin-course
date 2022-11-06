@@ -45,7 +45,7 @@
 
 Course for beginners and students that reviews the essential concepts and syntax of the Kotlin language.
 
-#### Program - What you will learn in this workshop?
+#### Program - What you will learn in this course?
 
 * Basic data types
 * Types parsing and casting
@@ -67,7 +67,7 @@ Course for beginners and students that reviews the essential concepts and syntax
 
 ## Getting Started
 
-This workshop is a series of exercises to get you familiar with the Kotlin Syntax and your basic concepts.
+This course is a series of exercises to get you familiar with the Kotlin Syntax and your basic concepts.
 Each exercise is created as a failing unit test (red) and your job is to make it pass (green).
 
 #### How to build and run tests
