@@ -1,5 +1,6 @@
 package com.c4.basics
 
+import com.c4.basics.Section11Classes.Bird.Color.GREEN
 import com.c4.tooling.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
@@ -96,5 +97,15 @@ class Section11ClassesTest {
             .isEqualTo(Long::class)
         assertThat(instanceToCheck.javaClass.kotlin.constructors.elementAt(0).parameters[2].type.classifier)
             .isEqualTo(String::class)
+    }
+    
+    @Test
+    fun shouldReturnGreenWhenCheckTask8() {
+        assertThat(Section11Classes.task8())
+            .hasFieldOrPropertyWithValue("name", "Talker")
+            .hasFieldOrPropertyWithValue("specie", "Parrot")
+            .hasFieldOrPropertyWithValue("color", GREEN)
+            .hasFieldOrPropertyWithValue("weight", 350.45f)
+            .isInstanceOf(Section11Classes.Bird::class.java)
     }
 }

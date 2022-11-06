@@ -1,5 +1,7 @@
 package com.c4.basics
 
+import com.c4.basics.Section11Classes.Bird.Color.GREEN
+import com.c4.basics.Section11Classes.Bird.Color.RED
 import com.c4.basics.creations.Cat
 import com.c4.basics.creations.Dog
 import com.c4.basics.creations.Owner
@@ -54,5 +56,25 @@ object Section11Classes {
     // Return on this function an instance of this class.
     fun task7(): Any {
         return Owner("John Barington", 699123456, "street 3th, 4854, Hawking")
+    }
+    
+    // Call "myBird" Function and copy result and replacing color value to GREEN
+    // using data class methods
+    fun task8(): Any {
+        return myBird().copy(color = GREEN)
+    }
+    
+    
+    private fun myBird() = Bird("Talker", "Parrot", RED, 350.45f)
+    
+    data class Bird(
+        val name: String,
+        val specie: String,
+        val color: Color,
+        val weight: Float
+    ) {
+        enum class Color {
+            RED, GREEN
+        }
     }
 }
