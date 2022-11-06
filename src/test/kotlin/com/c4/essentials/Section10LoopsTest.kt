@@ -1,4 +1,4 @@
-package com.c4.basics
+package com.c4.essentials
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterEach

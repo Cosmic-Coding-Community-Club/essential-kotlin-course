@@ -1,7 +1,7 @@
-package com.c4.basics
+package com.c4.essentials
 
-import com.c4.basics.Section09Exceptions.DEFAULT_STRING
-import com.c4.basics.Section09Exceptions.MESSAGE_USER_NOT_FOUND
+import com.c4.essentials.Section09Exceptions.DEFAULT_STRING
+import com.c4.essentials.Section09Exceptions.MESSAGE_USER_NOT_FOUND
 import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.Assertions.assertThatThrownBy
 import org.junit.jupiter.api.Test

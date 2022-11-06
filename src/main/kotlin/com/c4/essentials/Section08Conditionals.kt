@@ -1,4 +1,4 @@
-package com.c4.basics
+package com.c4.essentials
 
 import com.c4.basics.Section08Conditionals.PASTRY.CROISSANT
 import com.c4.basics.Section08Conditionals.PASTRY.DONUT

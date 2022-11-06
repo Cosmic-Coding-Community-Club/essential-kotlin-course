@@ -1,4 +1,4 @@
-package com.c4.basics
+package com.c4.essentials
 
 import com.c4.tooling.TestUtils.getFunction
 import org.assertj.core.api.Assertions.assertThat

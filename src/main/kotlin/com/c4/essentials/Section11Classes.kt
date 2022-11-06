@@ -1,4 +1,4 @@
-package com.c4.basics
+package com.c4.essentials
 
 import com.c4.basics.Section11Classes.Bird.Color.GREEN
 import com.c4.basics.Section11Classes.Bird.Color.RED

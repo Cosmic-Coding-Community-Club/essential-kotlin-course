@@ -1,4 +1,4 @@
-package com.c4.basics
+package com.c4.essentials
 
 import java.util.Random
 
