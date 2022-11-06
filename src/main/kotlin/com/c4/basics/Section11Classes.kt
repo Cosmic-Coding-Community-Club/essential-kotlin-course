@@ -51,4 +51,24 @@ object Section11Classes {
     fun task7(): Any {
         return Any()
     }
+    
+    // Call "myBird" Function and copy result and replacing color value to GREEN
+    // using data class methods
+    fun task8(): Any {
+        return Any()
+    }
+    
+    
+    private fun myBird() = Bird("Talker", "Parrot", Bird.Color.RED, 350.45f)
+    
+    data class Bird(
+        val name: String,
+        val specie: String,
+        val color: Color,
+        val weight: Float
+    ) {
+        enum class Color {
+            RED, GREEN
+        }
+    }
 }
