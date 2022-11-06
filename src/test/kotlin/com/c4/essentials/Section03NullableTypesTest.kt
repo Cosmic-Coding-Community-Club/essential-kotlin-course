@@ -1,8 +1,8 @@
-package com.c4.basics
+package com.c4.essentials
 
-import com.c4.basics.Section03NullableTypes.THE_BEST_PHRASE
-import com.c4.basics.Section03NullableTypes.USE_THIS_VALUE_TO_DEFAULT_LENGTH
-import com.c4.basics.Section03NullableTypes.USE_THIS_VALUE_TO_DEFAULT_PHRASE
+import com.c4.essentials.Section03NullableTypes.THE_BEST_PHRASE
+import com.c4.essentials.Section03NullableTypes.USE_THIS_VALUE_TO_DEFAULT_LENGTH
+import com.c4.essentials.Section03NullableTypes.USE_THIS_VALUE_TO_DEFAULT_PHRASE
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
